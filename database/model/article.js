@@ -1,0 +1,1 @@
+var mongoose = require('mongoose')var Schema = mongoose.Schema;var article = new Schema({    // _id: Schema.Types.ObjectId,    cat: String,    title: String,    summary: String,    content: String,    time: Date})module.exports = mongoose.model('article',article)
